@@ -1,0 +1,87 @@
+body {
+    background-color: gray;
+    color: white;
+     font-family: Arial, sans-serif;
+  }
+  
+  @media (max-height: 600px) {
+   .main-section {
+     font-size: .7em;
+   }
+  }
+  
+  header {
+    font-size: 24pt;
+    padding-top: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  p {
+  margin-bottom: 0px;
+  font-family: sans-serif;
+  }
+  
+  li {
+    margin-top: 20px;
+    font-family: sans-serif;
+  }
+  
+  #navbar {
+    position: fixed;
+    left: 0;
+    padding: 10px;
+  }
+  
+  .main-section {
+    font-size: 14pt;
+    font-family: "Arial Black", sans-serif;
+  
+    padding: 10px;
+  }
+  
+  #navbar a {
+    border-bottom: 2px solid white;
+    padding: 5px;
+    font-size: 12pt;
+    display: block;
+    margin-bottom: 8px;
+    font-family: sans-serif;
+  }
+  
+  #main-doc {
+  margin-left: 300px;
+  }
+  
+  #navbar header {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 20pt;
+    margin-bottom: 20px;
+    font-family: "Arial Black", sans-serif;
+  }
+  
+  /* Unvisited link */
+  a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Visited link */
+  a:visited {
+    color: lightgrey;
+  }
+  
+  /* Link on hover */
+  a:hover {
+    color: black;
+    text-decoration: underline; /* Adds an underline on hover */
+  }
+  
+  /* Active link */
+  a:active {
+    color: lightgray;
+  }
+  
+  code {
+    color: black;
+  }
+  
