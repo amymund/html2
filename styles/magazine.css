@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Baskervville', serif;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   color: linen;
   background-color: #220B45;
 }
@@ -38,6 +38,11 @@ main {
 img {
   width: 100%;
   object-fit: cover;
+  outline-style: solid;
+  outline-color:#FCCC6D;
+  outline-width: 5px;
+  filter:grayscale(90%);
+
 }
 
 hr {
@@ -75,6 +80,7 @@ hr {
   font-size: 2.4rem;
   color: #FAB95F;
   text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .author {
@@ -110,7 +116,7 @@ hr {
   color: #FCCC6D;
   font-size: 2.4rem;
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .quote::before {
@@ -131,14 +137,20 @@ hr {
 .lists {
   list-style-type: none;
   margin-top: 2rem;
+  
 }
 
 .lists li {
   margin-bottom: 1.5rem;
+text-align: left;
+padding-top: 6px;
 }
 
 .list-title, .list-subtitle {
   color: #FCCC6D;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 18pt;
+padding-bottom: 2px;
 }
 
 .image-wrapper {
