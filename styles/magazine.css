@@ -41,7 +41,7 @@ img {
   outline-style: solid;
   outline-color:#FCCC6D;
   outline-width: 5px;
-  filter:grayscale(90%);
+  filter: grayscale(90%);
 
 }
 
