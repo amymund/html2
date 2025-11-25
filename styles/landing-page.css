@@ -35,7 +35,7 @@
   border: 2px solid var(--green);
   background-color: var(--nav-bar);
   padding: 10px;
-  
+  color: var(--green);
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
 
@@ -47,7 +47,8 @@
 
   .nav-links a {
     text-decoration: none;
-    color: var(--text);
+    color: var(--green);
+    font-style: bold;
     padding: 0 10px;
   }
 
@@ -80,6 +81,7 @@ border: 2px solid var(--green);
   h2 {
     font-family: "fraunces";
     margin-bottom: 10px;
+    margin-top: 50px;
   }
 
   .icon {
@@ -108,7 +110,7 @@ margin: auto;
 .product-image {
     width: 100%;
     margin: auto;
-    height: 500px;
+    height: 400px;
     background-repeat: no-repeat;
 background-size: cover;
 border: 1px solid var(--text);
@@ -117,22 +119,26 @@ border-radius: 10px 10px 0 0;
 
 .product1 {
     background-image: url(https://mpd-biblio-covers.imgix.net/9781466804128.jpg?w=600&dpr=2);
-}
+margin-left: 10px;
+  }
 
 .product2 {
     background-image: url(https://mpd-biblio-covers.imgix.net/9781466805064.jpg?ixlib=imgixjs-4.0.1&w=1246);
-}
+    margin-left: 10px;
+  }
 
 .product3 {
     background-image: url(https://m.media-amazon.com/images/I/51IXWZzlgSL._SY445_SX342_FMwebp_.jpg);
-} 
+    margin-left: 10px;
+  } 
 
 .card {
-    background-color: var(--white);
-    border-radius: 10px;
-    width: 90%;
+    background-color: var(--nav-bar);
+    border-radius: 30px;
+    border: 1px solid var(--green);
+    width: 100%;
     margin: auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 
 }
 
@@ -140,19 +146,20 @@ border-radius: 10px 10px 0 0;
 display: flex;
 flex-direction: column;
 justify-content: space-around;
-padding: 10px;
+padding: 20px;
 }
 
 .content {
     font-family: "montserrat";
     color: var(--text);
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+
 }
 
 .flex {
     display: flex;
     align-items: 10px;
-    margin-bottom: 10px;
+
 }
 
 .main-price {
@@ -179,8 +186,9 @@ padding: 10px;
     font-family: "fraunces";
     margin: 10px 0;
     color: var(--header-text);
+    margin-top: 20px;
+    margin-bottom: 5px;
 
-    margin-top: 100px;
 }
 
 
@@ -202,6 +210,16 @@ padding: 10px;
 
   }
 
+  h2 {
+    color: var(--green);
+    font-size: 40px;
+  }
+
+  h3 {
+    color: var(--green);
+    font-size: 80px;
+    margin-bottom: 30px;
+  }
   section::before {
     display: block;
     content: " ";
