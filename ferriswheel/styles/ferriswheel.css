@@ -1,12 +1,16 @@
 
 body {
-    background-image: linear-gradient(to bottom right, rgb(255, 0, 225), yellow);
+    background: linear-gradient(to bottom right, rgb(255, 0, 225), yellow);
+    margin-top: 50px;
+    text-align: center;
+    height: 100vh;
 }
+
 .wheel {
     border: 5px solid rgb(225, 255, 0);
     border-radius: 50%;
-    margin-left: 50px;
-    position: absolute;
+    margin: 0 auto;
+    position: relative;
     height: 55vw;
     width: 55vw;
     max-width: 500px;
